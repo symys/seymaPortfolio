@@ -1,0 +1,75 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+    background-image: url("./images/main-page.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bx {
+    color: rgba(192, 4, 114, 0.678);
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-page-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-page-div li{
+    list-style-type: none;
+}
+
+.main-page{
+    padding: 20px;
+    max-width: 100%;
+    width: 2900px;
+}
+
+#name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(192, 4, 114, 0.767);
+}
+
+#description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(192, 4, 114, 0.678);
+}
+
+.item-social{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5em;
+}
+/*Navbar Styles*/
+.w3-navbar { color: #fff; }
+.w3-navbar.w3-animate-top { color: #444; }
+.w3-navbar li a:hover { background-color: rgba(0,0,0,0.2); color: #fff; }
+
+.navbar-part li{
+    display: inline-block;
+    color: #fff;
+}
+
+#home-btn{
+    margin-right: 15em;
+}
